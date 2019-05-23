@@ -1,0 +1,109 @@
+@charset "utf-8";
+.{
+	margin:0px;
+	padding:0px;	
+}
+#tbl-quantri{
+	margin-top:100px;
+	border:1px #E6E6E6 solid;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#000;
+}
+/* -------------------- 1 ----------------*/
+#tbl-quantri-header{
+	background-color:#333;
+	color:#FFF;
+	font-size:30px;
+	padding:20px 20px 20px 20px;
+	font-weight:bold;
+	border-radius:10px;
+}
+/* -------------------- 2 ----------------*/
+#tbl-quantri-nav-left{
+	font-size:20px;
+	padding:10px 10px 10px 10px;
+}
+#tbl-quantri-nav-right{
+	font-size:20px;
+	padding:10px 10px 10px 10px;
+}
+#tbl-quantri-nav-right a:hover{
+	color:#F00;
+	text-decoration:underline;
+}
+/* -------------------- 3 ----------------*/
+#tbl-quantri-midle-left{
+	border:1px #E6E6E6 solid;
+	padding:5px 10px 5px 10px;
+}
+#tbl-quantri-midle-left p{
+	border:1px #FFFFFF solid;
+	background-color:#333;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 0px 10px 20px;
+	border-radius:10px;
+}
+.tbl-quantri-midle-left-a{
+	padding:10px 10px 10px 20px;
+}
+.tbl-quantri-midle-left-a:hover{
+	color:#F00;
+	font-weight:bold;
+}
+#tbl-quantri-left-a-selected{
+	padding:10px 10px 10px 20px;
+	background-color:#F7F7F7;
+	border-radius:50px;
+	display:block;
+	color:#F00;
+	font-weight:bold;
+	text-align:right;
+}
+/* -------------------- 4 ----------------*/
+#tbl-quantri-midle-right{
+	border:1px #E6E6E6 solid;
+	padding:5px 10px 5px 10px;
+}
+.tbl-quantri-midle-right-tblChild-title td{
+	background-color:#333;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:10px;
+	padding:10px 10px 10px 10px;
+}
+.tbl-quantri-midle-right-tblChild-body td{
+	background-color:#F8F8F8;
+	color:#000;
+	border-radius:10px;
+}
+.tbl-quantri-midle-right-tblChild-body-td-click a:hover{
+	color:#F00;
+	font-weight:bold;
+}
+.tbl-quantri-midle-right-tblChild-btn{
+	border:0px;
+	background-color:#333;
+	color:#FFF;
+	padding:10px 10px 10px 10px;
+	border-radius:10px;
+}
+.tbl-quantri-midle-right-tblChild-btn:hover{
+	opacity:0.8;
+	transition:0.5s ease;
+	color:#FF0;
+}
+
+/* ---------- Other ----------------*/
+a{
+	text-decoration:none;
+}
+a:link{
+	color:#000;
+}
+a:visited{
+	color:#000;
+}
